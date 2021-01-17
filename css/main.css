@@ -3717,6 +3717,7 @@ py-* - same value for top and for bottom padding
 
 .s-pt-75 > [class*='container'] {
 	padding-top: 75px;
+	padding-bottom: 50px;
 }
 
 .s-pt-100 > [class*='container'] {
@@ -3724,7 +3725,7 @@ py-* - same value for top and for bottom padding
 }
 
 .s-pt-130 > [class*='container'] {
-	padding-top: 130px;
+	
 }
 
 .s-pb-0 > [class*='container'] {
@@ -4698,7 +4699,7 @@ my-* - same value for top and for bottom margin
 
 .c-mt-30 [class*="col-"],
 .row.c-mt-30 > [class*="col-"] {
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 .c-mt-40 [class*="col-"],
