@@ -3721,7 +3721,7 @@ py-* - same value for top and for bottom padding
 }
 
 .s-pt-100 > [class*='container'] {
-	padding-top: 100px;
+	padding-top: 20px;
 }
 
 .s-pt-130 > [class*='container'] {
@@ -4508,7 +4508,7 @@ py-* - same value for top and for bottom padding
 	}
 
 	.s-pt-xl-100 > [class*='container'] {
-		padding-top: 100px;
+		padding-top: 60px;
 	}
 
 	.s-pt-xl-130 > [class*='container'] {
@@ -10829,7 +10829,7 @@ widget_recent_entries
 a[class*='fa-']:before {
 	display: inline-block;
 	font-family: "FontAwesome", sans-serif;
-	font-size: 14px;
+	font-size: 28px;
 	line-height: 1;
 	width: 1em;
 }
@@ -14157,7 +14157,7 @@ a.logo {
 
 a.logo img {
 	display: inline-block;
-	max-height: 80px;
+	max-height: 50px;
 }
 
 a.logo .logo-text {
@@ -14663,6 +14663,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .page_slider .flexslider .slides .itro_slider {
 	z-index: 10;
+	margin-top: -150px;
 }
 
 .page_slider .flexslider:before,
