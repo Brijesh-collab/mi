@@ -13282,7 +13282,7 @@ a img.aligncenter {
 
 	.ds .sf-menu > li > a:hover,
 	.ds .sf-menu > li.active > a {
-		color: #ff497c;
+		/*color: #ff497c;*/
 	}
 
 	.ls .sf-menu > li > a {
