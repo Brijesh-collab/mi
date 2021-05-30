@@ -751,7 +751,7 @@ select option,
 }
 
 .form-control.invalid {
-	box-shadow: 0 0 0 2px black;
+	box-shadow: 0 0 0 2px #ec2c2c;
 }
 
 .form-control:focus {
@@ -13234,7 +13234,7 @@ a img.aligncenter {
 @media (min-width: 1200px) {
 	.sf-menu > li > a:hover,
 	.sf-menu > li.active > a {
-		color: black;
+		color: white;
 	}
 
 	.nav-narrow .sf-menu > li {
@@ -13275,7 +13275,9 @@ a img.aligncenter {
 
 	.cs .sf-menu > li > a:hover,
 	.cs .sf-menu > li.active > a {
-		text-decoration: solid underline overline white 5px;
+		/*text-decoration: solid underline overline white 5px;*/
+		border: 4px solid white;
+		padding: 8px 4px 4px 8px;
 	}
 
 	.ds .sf-menu > li > a {
@@ -13284,7 +13286,10 @@ a img.aligncenter {
 
 	.ds .sf-menu > li > a:hover,
 	.ds .sf-menu > li.active > a {
-		text-decoration: solid underline overline white 5px;
+		/*text-decoration: solid underline overline white 5px;*/
+		border: 4px solid white;
+		padding: 8px 4px 4px 8px;
+		color: white;
 	}
 
 	.ls .sf-menu > li > a {
@@ -13293,7 +13298,11 @@ a img.aligncenter {
 
 	.ls .sf-menu > li > a:hover,
 	.ls .sf-menu > li.active > a {
-		text-decoration: solid underline overline white 5px;
+		/*text-decoration: solid underline overline white 5px;*/
+		border: 4px solid white;
+		padding: 8px 4px 4px 8px;
+		text-decoration-color: white;
+		color: white;
 	}
 
 	.ls .sf-menu > li + li:before {
@@ -13346,7 +13355,7 @@ a img.aligncenter {
 
 	.sf-menu ul a:hover,
 	.sf-menu ul li.active > a {
-		color: black;
+		/*color: black;*/
 	}
 	/* third level */
 	.sf-menu ul ul {
@@ -14953,7 +14962,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .flexslider-overlay {
-	background-color: rgba(31, 39, 50, 0.7);
+	/*background-color: rgba(31, 39, 50, 0.7);*/
 	bottom: 0;
 	content: "";
 	display: block;
@@ -15090,7 +15099,7 @@ body.active-side-header.slide-right .page_header_side {
 	display: block;
 	font-size: 0;
 	height: 80px;
-	margin: 35px 0 0;
+	margin: 12px 0 0;
 	opacity: 1;
 	overflow: hidden;
 	position: absolute;

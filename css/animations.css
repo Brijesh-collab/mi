@@ -13232,7 +13232,8 @@ a img.aligncenter {
 @media (min-width: 1200px) {
 	.sf-menu > li > a:hover,
 	.sf-menu > li.active > a {
-		color: #ff497c;
+		/*color: #ff497c;*/
+		color: white;
 	}
 
 	.nav-narrow .sf-menu > li {
@@ -13283,6 +13284,7 @@ a img.aligncenter {
 	.ds .sf-menu > li > a:hover,
 	.ds .sf-menu > li.active > a {
 		/*color: #ff497c;*/
+		color: white;
 	}
 
 	.ls .sf-menu > li > a {
@@ -14946,7 +14948,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .flexslider-overlay {
-	background-color: rgba(31, 39, 50, 0.7);
+	/*background-color: rgba(31, 39, 50, 0.7);*/
 	bottom: 0;
 	content: "";
 	display: block;
