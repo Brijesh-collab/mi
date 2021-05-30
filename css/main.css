@@ -7465,8 +7465,8 @@ body.boxed {
 */
 /* dark grey background section - .ds */
 .ds {
-	background-color: #1f2732;
-	/*background-color: black;*/
+	/*background-color: #1f2732;*/
+	background-color: black;
 	color: #9a9a9a;
 }
 
