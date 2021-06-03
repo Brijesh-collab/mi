@@ -1842,7 +1842,7 @@ Owl Default Theme
 .testimonials-sliders.ds .owl-dots .owl-dot.active span,
 .testimonials-sliders.ds .owl-dots .owl-dot:hover span {
 	background-color: black;
-	border: 1px solid black;
+	border: 1px solid;
 	opacity: 1;
 }
 
@@ -6098,6 +6098,7 @@ img {
 .s-muted:before,
 .s-parallax:before {
 	opacity: 1;
+	/*background-color: black;*/
 }
 
 .s-overlay-diagonal {
@@ -7465,8 +7466,8 @@ body.boxed {
 */
 /* dark grey background section - .ds */
 .ds {
-	background-color: #1f2732;
-	/*background-color: black;*/
+	/*background-color: #1f2732;*/
+	background-color: black;
 	color: #9a9a9a;
 }
 
@@ -18548,7 +18549,7 @@ a.btn {
 }
 
 .texture-ds {
-	background-image: url("../img/texture_dark.jpg");
+	background-image: url("../img/texture_black.jpg");
 }
 
 /*footer social buttons that hidden on half of their height*/
@@ -21190,7 +21191,7 @@ h4.margin {
 .page_footer.corner-footer:before {
 	background-attachment: fixed;
 	background-color: #1f2732;
-	background-image: url("../img/texture_dark.jpg");
+	background-image: url("../img/texture_black.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	content: "";
@@ -21207,7 +21208,7 @@ h4.margin {
 .page_footer.corner-footer:after {
 	background-attachment: fixed;
 	background-color: #1f2732;
-	background-image: url("../img/texture_dark.jpg");
+	background-image: url("../img/texture_black.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	content: "";
@@ -22304,7 +22305,7 @@ h4.margin {
 }
 
 .process-part {
-	background-image: url("../img/texture_dark.jpg");
+	background-image: url("../img/texture_black.jpg");
 }
 
 .process-part.skew_right {

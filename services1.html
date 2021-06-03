@@ -366,14 +366,14 @@
 					<div class="item-content text-center">
 						<h2>Contact Form</h2>
 					</div>
-					<form class="contact-form c-mb-20 c-gutter-20">
+					<form method="POST" id="contactForm" action="contact-form.php" class="contact-form c-mb-20 c-gutter-20">
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="form-group has-placeholder">
 									<label for="name">Full Name
 										<span class="required">*</span>
 									</label>
-									<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Full Name">
+									<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Full Name" required>
 								</div>
 							</div>
 							<div class="col-sm-6">
@@ -381,7 +381,7 @@
 									<label for="email">Email address
 										<span class="required">*</span>
 									</label>
-									<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email Adress">
+									<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email Adress" required>
 								</div>
 							</div>
 						</div>
@@ -392,7 +392,7 @@
 									<label for="phone">Phone Number
 										<span class="required">*</span>
 									</label>
-									<input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Phone Number">
+									<input type="text" pattern="[6789][0-9]{9}" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Phone Number" title="Mobile no should start with digits 6/7/8/9 and must contain 10 digits. e.g. 98XXXXXX01." required>
 								</div>
 							</div>
 							<div class="col-sm-6">
@@ -400,7 +400,7 @@
 									<label for="subject">Your Topic
 										<span class="required">*</span>
 									</label>
-									<input type="text" aria-required="true" size="30" value="" name="subject" id="subject" class="form-control" placeholder="Your Topic">
+									<input type="text" pattern="^[A-Za-z -]+$" aria-required="true" size="30" value="" name="subject" id="subject" class="form-control" placeholder="Your Topic" title="Alphabets only!">
 								</div>
 							</div>
 						</div>
@@ -408,7 +408,7 @@
 							<div class="col-sm-12">
 								<div class="form-group has-placeholder">
 									<label for="message">Your Message</label>
-									<textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+									<textarea aria-required="true" rows="6" cols="45" name="message" pattern="^[A-Za-z -]+$" minlength="15" id="message" class="form-control" placeholder="Your Message" title="Message should be atleast 15 characters long and alphabets only."></textarea>
 								</div>
 							</div>
 						</div>
