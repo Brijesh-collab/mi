@@ -18535,7 +18535,7 @@ a.btn {
 }
 
 .texture-ds {
-	background-image: url("../img/texture_dark.jpg");
+	background-image: url("../img/texture_black.jpg");
 }
 
 /*footer social buttons that hidden on half of their height*/
@@ -21176,7 +21176,7 @@ h4.margin {
 .page_footer.corner-footer:before {
 	background-attachment: fixed;
 	background-color: #1f2732;
-	background-image: url("../img/texture_dark.jpg");
+	background-image: url("../img/texture_black.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	content: "";
@@ -21193,7 +21193,7 @@ h4.margin {
 .page_footer.corner-footer:after {
 	background-attachment: fixed;
 	background-color: #1f2732;
-	background-image: url("../img/texture_dark.jpg");
+	background-image: url("../img/texture_black.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	content: "";
@@ -22290,7 +22290,7 @@ h4.margin {
 }
 
 .process-part {
-	background-image: url("../img/texture_dark.jpg");
+	background-image: url("../img/texture_black.jpg");
 }
 
 .process-part.skew_right {
