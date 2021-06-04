@@ -11,12 +11,13 @@ $name = $_POST['name'];
 // $adult = $_POST['adults'];
 // $child = $_POST['childs'];
 $visitor_email = $_POST['email'];
-if(empty($subject)){
-  $subject = "NA"
-}
-else{
-  $subject = $_POST['subject'];
-}
+// if(empty($subject)){
+//   $subject = "NA"
+// }
+// else{
+//   $subject = $_POST['subject'];
+// }
+$subject = $_POST['subject'];
 
 $message = $_POST['message'];
 $no = $_POST['phone'];
