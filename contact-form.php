@@ -43,7 +43,7 @@ $to = "connect@markinfinity.in,brijeshchauhan.work@gmail.com";//<== update the e
 $headers = "From: $email_from \r\n";
 //$headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
-mail($to,$email_subject,$email_body);
+mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
 header('Location: thankyou.html');
 
